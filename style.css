@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+#wrapper {
+  margin: 10px auto;
+}
+#game_container {
+  position: relative;
+  border: 5px solid black;
+  margin: 0 0 10px;
+  overflow: hidden;
+}
+#game_container > div {
+  position: absolute;
+  box-sizing: border-box;
+}
+#racket {
+  border: 2px solid black;
+  background-color: gray;
+}
+#ball {
+  border-radius: 50%;
+  background-color: blue;
+}
+.simplePiece {
+  border: 2px solid black;
+  background-color: red;
+}
+#controlersContainer {
+  display: flex;
+  justify-content: center;
+}
+#start_button {
+  cursor: pointer;
+  width: 60px;
+  box-sizing: border-box;
+}
+#level:enabled {
+  cursor: pointer;
+}
